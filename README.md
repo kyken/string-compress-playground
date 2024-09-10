@@ -1,0 +1,2 @@
+# string-compress-playground
+うおおん
