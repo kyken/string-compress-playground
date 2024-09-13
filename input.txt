@@ -1,0 +1,1 @@
+This is a test string that we want to compress using different algorithms. It can be any length and contain any characters. We'll compare the compression ratios.

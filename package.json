@@ -1,0 +1,19 @@
+{
+  "name": "string-compress-playground",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "rsa": "npm run build && node --experimental-specifier-resolution=node dist/rsa.js",
+    "ecc": "npm run build && node --experimental-specifier-resolution=node dist/ecc.js",
+    "ecc128": "npm run build && node --experimental-specifier-resolution=node dist/ecc128.js",
+    "compress": "npm run build && node --experimental-specifier-resolution=node dist/compress.js"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "typescript": "5.6.2"
+  },
+  "dependencies": {
+    "zstd-napi": "^0.0.8"
+  }
+}
